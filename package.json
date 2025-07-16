@@ -1,0 +1,13 @@
+{
+  "name": "shinobi-ledger",
+  "version": "1.0.0",
+  "description": "Your Personal CFO",
+  "private": true,
+  "workspaces": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chuli",
+  "license": "ISC"
+}
