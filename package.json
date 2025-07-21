@@ -9,8 +9,13 @@
   ],
   "scripts": {
     "install:example": "npm install --workspace=@shinobi-ledger/example",
-    "dev:example": "npm run dev --workspace=@shinobi-ledger/example"
+    "install:scripts": "npm install --workspace=@shinobi-ledger/scripts",
+    "start:dev:example": "npm run start:dev --workspace=@shinobi-ledger/example",
+    "create:app:nest": "npm run create:app:nest --workspace=@shinobi-ledger/scripts"
   },
   "author": "Chuli",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.7"
+  }
 }

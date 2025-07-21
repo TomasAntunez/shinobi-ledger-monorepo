@@ -2,7 +2,7 @@
   "name": "@shinobi-ledger/example",
   "version": "1.0.0",
   "scripts": {
-    "dev": "ts-node-dev --respawn --clear src/main.ts"
+    "start:dev": "ts-node-dev --respawn --clear src/main.ts"
   },
   "author": "Chuli",
   "license": "ISC",
