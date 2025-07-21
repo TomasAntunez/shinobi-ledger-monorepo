@@ -1,0 +1,12 @@
+{
+  "name": "@shinobi-ledger/shared",
+  "version": "1.0.0",
+  "exports": {
+    "./dates": "./src/dates/index.ts"
+  },
+  "author": "Chuli",
+  "license": "ISC",
+  "devDependencies": {
+    "@shinobi-ledger/typescript-config": "*"
+  }
+}

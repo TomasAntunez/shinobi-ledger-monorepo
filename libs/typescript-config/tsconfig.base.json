@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ES2021",
     "moduleResolution": "nodenext",
+    "module": "nodenext",
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,

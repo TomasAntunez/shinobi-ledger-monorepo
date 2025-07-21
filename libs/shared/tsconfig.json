@@ -1,0 +1,3 @@
+{
+  "extends": "@shinobi-ledger/typescript-config/tsconfig.base.json"
+}

@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Your Personal CFO",
   "private": true,
-  "workspaces": [],
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install:example": "npm install --workspace=@shinobi-ledger/example",
+    "dev:example": "npm run dev --workspace=@shinobi-ledger/example"
   },
-  "keywords": [],
   "author": "Chuli",
   "license": "ISC"
 }
