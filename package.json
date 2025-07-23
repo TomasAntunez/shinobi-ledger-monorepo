@@ -10,7 +10,9 @@
   "scripts": {
     "install:example": "npm install --workspace=@shinobi-ledger/example",
     "install:scripts": "npm install --workspace=@shinobi-ledger/scripts",
+    "install:nest-backend": "npm install --workspace=@shinobi-ledger/nest-backend",
     "start:dev:example": "npm run start:dev --workspace=@shinobi-ledger/example",
+    "start:dev:local:nest-backend": "npm run start:dev:local --workspace=@shinobi-ledger/nest-backend",
     "create:app:nest": "npm run create:app:nest --workspace=@shinobi-ledger/scripts"
   },
   "author": "Chuli",
