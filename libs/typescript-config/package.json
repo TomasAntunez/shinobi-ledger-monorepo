@@ -2,8 +2,5 @@
   "name": "@shinobi-ledger/typescript-config",
   "version": "1.0.0",
   "author": "Chuli",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.8.3"
-  }
+  "license": "ISC"
 }
