@@ -17,6 +17,7 @@
     "start:dev:local:nest-backend": "npm run start:dev:local --workspace=@shinobi-ledger/nest-backend",
     "start:dev:mobile-app": "npm run start --workspace=@shinobi-ledger/mobile-app",
     "start:dev:mobile-app:ios": "npm run ios --workspace=@shinobi-ledger/mobile-app",
+    "start:dev:mobile-app:android": "npm run android --workspace=@shinobi-ledger/mobile-app",
     "create:app:nest": "npm run create:app:nest --workspace=@shinobi-ledger/scripts"
   },
   "author": "Chuli",
