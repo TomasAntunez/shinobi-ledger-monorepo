@@ -12,7 +12,7 @@
     "install:scripts": "npm install --workspace=@shinobi-ledger/scripts",
     "install:nest-backend": "npm install --workspace=@shinobi-ledger/nest-backend",
     "install:mobile-app": "npm install --workspace=@shinobi-ledger/mobile-app",
-    "install:all": "npm install --workspaces",
+    "build:dev:shared": "npm run build:dev --workspace=@shinobi-ledger/shared",
     "start:dev:example": "npm run start:dev --workspace=@shinobi-ledger/example",
     "start:dev:local:nest-backend": "npm run start:dev:local --workspace=@shinobi-ledger/nest-backend",
     "start:dev:mobile-app": "npm run start --workspace=@shinobi-ledger/mobile-app",
@@ -23,7 +23,8 @@
   "author": "Chuli",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "@nestjs/cli": "^11.0.7"
+    "@nestjs/cli": "^11.0.7",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
   }
 }

@@ -1,4 +1,4 @@
-import { Clock } from '@shinobi-ledger/shared/dates';
+import { Clock } from "@shinobi-ledger/shared";
 
 const firstClock = Clock.create();
 

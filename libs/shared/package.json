@@ -1,11 +1,16 @@
 {
   "name": "@shinobi-ledger/shared",
   "version": "1.0.0",
-  "exports": {
-    "./dates": "./src/dates/index.ts"
-  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "author": "Chuli",
   "license": "ISC",
+  "sideEffects": false,
+  "scripts": {
+    "postinstall": "npm run build:prod",
+    "build:prod": "rimraf dist && tsc",
+    "build:dev": "tsc --watch"
+  },
   "devDependencies": {
     "@shinobi-ledger/typescript-config": "*"
   }

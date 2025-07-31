@@ -10,7 +10,7 @@
     "@shinobi-ledger/shared": "*"
   },
   "devDependencies": {
-    "ts-node-dev": "^2.0.0",
-    "@shinobi-ledger/typescript-config": "*"
+    "@shinobi-ledger/typescript-config": "*",
+    "ts-node-dev": "^2.0.0"
   }
 }

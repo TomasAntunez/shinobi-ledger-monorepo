@@ -12,4 +12,8 @@ export class Clock {
   toTimestamp(): number {
     return this.date.getTime();
   }
+
+  toISOString(): string {
+    return this.date.toISOString();
+  }
 }
