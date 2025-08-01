@@ -8,7 +8,7 @@ export enum Environment {
 
 export class EnvironmentVariables {
   @IsEnum(Environment)
-  NODE_ENV: Environment;
+  NODE_ENV!: Environment;
 
   @IsNumber()
   @Min(0)

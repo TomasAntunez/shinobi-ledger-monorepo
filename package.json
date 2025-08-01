@@ -13,6 +13,7 @@
     "install:nest-backend": "npm install --workspace=@shinobi-ledger/nest-backend",
     "install:mobile-app": "npm install --workspace=@shinobi-ledger/mobile-app",
     "build:dev:shared": "npm run build:dev --workspace=@shinobi-ledger/shared",
+    "build:prod:nest-backend": "npm run build --workspace=@shinobi-ledger/nest-backend",
     "start:dev:example": "npm run start:dev --workspace=@shinobi-ledger/example",
     "start:dev:local:nest-backend": "npm run start:dev:local --workspace=@shinobi-ledger/nest-backend",
     "start:dev:mobile-app": "npm run start --workspace=@shinobi-ledger/mobile-app",
