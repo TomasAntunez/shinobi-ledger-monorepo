@@ -18,9 +18,7 @@ export const App: FC = () => {
         Current date from local: {Clock.create().toISOString()}
       </Text>
 
-      <Text style={styles.text}>
-        Current date from server: {serverDate}
-      </Text>
+      <Text style={styles.text}>Current date from server: {serverDate}</Text>
     </View>
   );
 };
