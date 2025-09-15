@@ -1,1 +1,1 @@
-export * from './dates';
+export { Clock } from './dates/core/clock.js';

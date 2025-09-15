@@ -1,9 +1,0 @@
-{
-  "extends": "@shinobi-ledger/typescript-config/tsconfig.app.json",
-  "compilerOptions": {
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "outDir": "./dist",
-    "rootDir": "./"
-  }
-}
